@@ -10,7 +10,13 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "-I/home/cakelemon/competitive-programming/ac-library"
+                "-I/home/cakelemon/competitive-programming/ac-library",
+                "-std=gnu++17",
+                "-Wall",
+                "-Wextra",
+                "-Wshadow",
+                "-fsanitize=undefined",
+                "-D_GLIBCXX_DEBUG",
             ],
             "options": {
                 "cwd": "${fileDirname}"

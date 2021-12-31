@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "iosfwd": "cpp"
-    }
+        "iosfwd": "cpp",
+        "convolution": "cpp",
+        "random": "cpp",
+        "modint": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp"
+    },
+    "cmake.configureOnOpen": false
 }
